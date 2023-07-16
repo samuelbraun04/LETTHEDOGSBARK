@@ -1,0 +1,74 @@
+.voting-chat-page {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.voting-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.voting-section h2 {
+  margin-bottom: 20px;
+}
+
+.voting-section .button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.chat-section {
+  width: 45%;
+}
+
+.voting-section button {
+  padding: 15px 25px; /* Increase padding to make buttons bigger */
+  font-size: 20px;
+  /* margin-bottom: 10px; */
+}
+
+.chat-section button {
+  margin: 20px 0;
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.voting-section button:hover,
+.chat-section button:hover {
+  opacity: 0.8;
+}
+
+.chat-box {
+  height: 400px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  overflow-y: auto;
+}
+
+input[type="text"] {
+  width: calc(100% - 72px);
+  padding: 10px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+}
+
+.chart-section {
+  width: 350px;
+  height: 350px;
+  margin: auto;
+}
+
+.rules {
+  margin-top: 20px;
+  font-size: 20px;
+  width: 80%;
+  margin: auto;
+}

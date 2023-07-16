@@ -1,0 +1,118 @@
+.cart-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cart-items {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .cart-item-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .cart-item-details h3 {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .cart-item-details p {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .cart-item img {
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+    align-self: flex-end;
+  }
+  
+  .cart-summary {
+    flex: 0 0 300px;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  .cart-summary h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .shipping-section input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .total-cost {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .checkout-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .checkout-button:hover {
+    background-color: #3367d6;
+  }
+  
+  .cart-image-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .indicator {
+    height: auto;
+    width: 400px;
+  }
+  
+  .centered-text {
+    text-align: center;
+  }
+  
+  .cart-items,
+  .cart-summary {
+    margin-bottom: 20px;
+  }
+  
+  .cart-summary {
+    margin-top: 75px;
+    margin-bottom: 0;
+  }

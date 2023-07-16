@@ -1,0 +1,57 @@
+.about-page {
+  display: flex;
+  justify-content: space-between;
+  position: relative; /* Add this line to establish a positioning context */
+}
+
+.content-section {
+  flex-basis: 50%;
+  padding: 20px;
+  margin-top: -30px;
+  font-size: 20px;
+}
+
+.image-section {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section img {
+  width: 650px;
+  height: auto;
+}
+
+.helpMe {
+  position: absolute;
+  margin-top: 50px;
+}
+
+.about-page iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.language-wrapper {
+  position: absolute;
+  top: 20px; /* Adjust the top value to position the buttons vertically */
+  right: 20px; /* Adjust the right value to position the buttons horizontally */
+  z-index: 10;
+}
+
+.language-container {
+  transition: opacity 0.3s;
+}
+
+.language-container.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.language-buttons button {
+  margin-left: 10px;
+}

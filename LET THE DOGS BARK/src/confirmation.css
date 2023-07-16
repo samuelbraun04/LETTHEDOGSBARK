@@ -1,0 +1,54 @@
+.confirmation-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #444;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    color: white;
+  }
+  .confirmation-page h3 {
+    margin: 20px 0;
+  }
+  
+  .confirmation-page .info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .confirmation-page .info-container .area1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+  }
+
+  .confirmation-page .info-container .area2 {
+    display: flex;
+    flex-direction: column;
+    /* padding-right: 100px; */
+    margin-right: 30px
+  }
+
+  .info-container {
+    background-color: #111111;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .confirmation-page p {
+    margin-bottom: 10px;
+  }
+  
+  .confirmation-page img {
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  /* .thatImage {
+    height: auto;
+    width: 350px;
+  } */
