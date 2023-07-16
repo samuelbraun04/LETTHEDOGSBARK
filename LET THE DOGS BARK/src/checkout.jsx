@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './CheckoutPage.css';
 import ConfirmationPage from './confirmation';
-import CartPage from './cart'
 
 const CheckoutPage = ({ totalCost }) => {
   const [isCheckingOut, setIsCheckingOut] = useState(false);
@@ -83,7 +82,7 @@ const CheckoutPage = ({ totalCost }) => {
   return (
     <>
       {isCheckingOut ? (
-        <ConfirmationPage formData={getInputValues()} />
+        <ConfirmationPage formData={formData} />
       ) : (
         <div className="checkout-page">
           <h2>Checkout</h2>
