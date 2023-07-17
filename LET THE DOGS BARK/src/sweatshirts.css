@@ -22,6 +22,12 @@ body {
   .myBabyButton {
     align-self: center;
     width: 100%;
+    background-color: black;
+    color: white;
+  }
+
+  .myBabyButton:hover {
+    background-color: #444;
   }
   
   .products {
